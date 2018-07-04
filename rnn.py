@@ -184,7 +184,7 @@ def model(data, ix_to_char, char_to_ix, vocab_size, num_iterations=35000,
 
 
 if __name__ == '__main__':
-    with open('jokes.json') as file:
+    with open('./data/jokes.json') as file:
         jokes = json.load(file)
 
     data = []
